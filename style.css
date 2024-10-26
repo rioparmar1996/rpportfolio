@@ -1,0 +1,116 @@
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  margin-bottom: 1rem;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* About Me Section */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+#about {
+  background-color: #f9f9f9;
+}
+
+/* Projects Section */
+#projects .project-card {
+  background-color: #eaeaea;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#projects .project-card:hover {
+  background-color: #dcdcdc;
+}
+
+/* Contact Me Section */
+#contact {
+  background-color: #f9f9f9;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+#contact label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+}
+
+#contact input,
+#contact textarea,
+#contact button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#contact button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
